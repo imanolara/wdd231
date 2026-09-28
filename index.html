@@ -1,1 +1,149 @@
-<h1>Hello Guys</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Home | WDD 231 | Imanol Aranda</title>
+  <meta
+    name="description"
+    content="WDD 231 course home page for Imanol Aranda, featuring coursework and certificate progress.">
+  <meta name="author" content="Imanol Aranda">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img
+      src="images/logo.svg"
+      alt="Imanol Aranda site logo"
+      width="48"
+      height="48">
+
+    <span>Imanol Aranda</span>
+
+    <button
+      id="menu"
+      class="hamburger"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false">
+    </button>
+  </header>
+
+  <nav id="navigation" class="navigation">
+    <ul>
+      <li>
+        <a class="active" href="index.html" aria-current="page">Home</a>
+      </li>
+      <li>
+        <a href="chamber/index.html">Chamber</a>
+      </li>
+      <li>
+        <a href="final/index.html">Final</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <div class="home-grid">
+      <section class="course-work">
+        <h2>Course Work</h2>
+        <ul>
+          <li>WDD 231 Course Home Page</li>
+        </ul>
+      </section>
+
+      <section class="location">
+        <h2>Lima, Peru</h2>
+
+        <figure>
+          <img
+            src="images/lima-peru.webp"
+            alt="View of Lima, Peru"
+            width="600"
+            height="400">
+          <figcaption>Lima, Peru</figcaption>
+        </figure>
+      </section>
+    </div>
+
+    <section class="certificate">
+      <h2>Web and Computer Programming Certificate</h2>
+
+      <div class="course-filters">
+        <button id="all-courses" type="button">All Courses</button>
+        <button id="wdd-courses" type="button">WDD Courses</button>
+        <button id="cse-courses" type="button">CSE Courses</button>
+      </div>
+
+      <div id="course-list"></div>
+
+      <p id="total-credits" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-links">
+      <a
+        href="https://github.com/imanolara"
+        target="_blank"
+        rel="noopener"
+        aria-label="Imanol Aranda on GitHub">
+        <img
+          src="images/github.svg"
+          alt=""
+          width="32"
+          height="32">
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/imanol-aranda-yauri-563752392/"
+        target="_blank"
+        rel="noopener"
+        aria-label="Imanol Aranda on LinkedIn">
+        <img
+          src="images/linkedin.svg"
+          alt=""
+          width="32"
+          height="32">
+      </a>
+
+      <a
+        href="https://www.instagram.com/imanol_aranda980/"
+        target="_blank"
+        rel="noopener"
+        aria-label="Imanol Aranda on Instagram">
+        <img
+          src="images/instagram.svg"
+          alt=""
+          width="32"
+          height="32">
+      </a>
+    </div>
+
+    <p>
+      &copy; <span id="currentyear"></span> |
+      Imanol Aranda |
+      Peru
+    </p>
+
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

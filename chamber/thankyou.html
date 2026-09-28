@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chamber membership application confirmation.">
+  <meta name="author" content="Imanol Jared Aranda">
+
+  <title>Thank You | Andean Valley Chamber</title>
+
+  <link rel="stylesheet" href="styles/chamber.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/thankyou.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="logo" href="index.html">AV</a>
+
+      <div class="business-name">
+        <strong>Andean Valley</strong>
+        <span>Chamber of Commerce</span>
+      </div>
+
+      <button
+        id="menu-button"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false">
+      </button>
+
+      <nav id="navigation">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="confirmation">
+      <p class="eyebrow">Application Received</p>
+      <h1>Thank You for Joining Us!</h1>
+
+      <p>
+        We received your membership application with the following
+        information:
+      </p>
+
+      <dl class="submitted-information">
+        <dt>First Name</dt>
+        <dd id="submitted-first"></dd>
+
+        <dt>Last Name</dt>
+        <dd id="submitted-last"></dd>
+
+        <dt>Email</dt>
+        <dd id="submitted-email"></dd>
+
+        <dt>Mobile Phone</dt>
+        <dd id="submitted-phone"></dd>
+
+        <dt>Organization</dt>
+        <dd id="submitted-organization"></dd>
+
+        <dt>Submission Date</dt>
+        <dd id="submitted-timestamp"></dd>
+      </dl>
+
+      <a class="home-button" href="index.html">Return to Home</a>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>Andean Valley Chamber of Commerce</strong>
+      <p>Av. Comunidad 231, Lima, Peru</p>
+      <p>info@andeanvalley.org</p>
+    </div>
+
+    <div>
+      <p>© <span id="current-year"></span> Andean Valley Chamber</p>
+      <p>Last Modified: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+</body>
+</html>

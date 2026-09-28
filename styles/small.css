@@ -1,0 +1,240 @@
+:root {
+    --primary-color: #0b3954;
+    --secondary-color: #061f2d;
+    --accent-color: #e9b949;
+    --background-color: #f4f6f8;
+    --text-color: #1f2933;
+    --white: #ffffff;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button,
+  a {
+    font: inherit;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 48px 1fr 48px;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+  }
+  
+  header img {
+    width: 48px;
+    height: 48px;
+  }
+  
+  header span {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  
+  .hamburger {
+    width: 48px;
+    height: 48px;
+    border: 0;
+    background: transparent;
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  .hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+  }
+  
+  .hamburger.show::before {
+    content: "\00D7";
+  }
+  
+  .navigation {
+    display: none;
+    background-color: var(--secondary-color);
+  }
+  
+  .navigation.show {
+    display: block;
+  }
+  
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navigation a {
+    display: block;
+    min-height: 48px;
+    padding: 0.8rem 1rem;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .navigation a:hover,
+  .navigation a.active {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+  }
+  
+  main {
+    width: min(calc(100% - 2rem), 1100px);
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+  }
+  
+  h1 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+  }
+  
+  .home-grid {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  section {
+    overflow: hidden;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+  }
+  
+  section h2 {
+    margin: 0;
+    padding: 0.75rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .course-work ul {
+    padding: 1rem 2.5rem;
+  }
+  
+  .location figure {
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .location img {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .location figcaption {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .certificate {
+    margin-top: 1rem;
+  }
+  
+  .course-filters {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .course-filters button {
+    min-height: 44px;
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .course-filters button:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+  }
+  
+  #course-list {
+    display: grid;
+    gap: 0.75rem;
+    padding: 0 1rem 1rem;
+  }
+  
+  .course-card {
+    padding: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .course-card.completed {
+    border-color: #217a3c;
+    background-color: #d9f2e3;
+    color: #164f2a;
+  }
+  
+  #total-credits {
+    padding: 0 1rem 1rem;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  footer {
+    padding: 1.5rem 1rem;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-links a {
+    display: grid;
+    width: 48px;
+    height: 48px;
+    place-items: center;
+    border-radius: 50%;
+    background-color: var(--white);
+  }
+  
+  .social-links a:hover {
+    background-color: var(--accent-color);
+  }
+  
+  .social-links img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  footer p {
+    margin: 0.75rem 0 0;
+  }

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join the Andean Valley Chamber of Commerce.">
+  <meta name="author" content="Imanol Jared Aranda">
+
+  <title>Join | Andean Valley Chamber</title>
+
+  <link rel="stylesheet" href="styles/chamber.css">
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <a class="logo" href="index.html">AV</a>
+
+      <div class="business-name">
+        <strong>Andean Valley</strong>
+        <span>Chamber of Commerce</span>
+      </div>
+
+      <button
+        id="menu-button"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false">
+      </button>
+
+      <nav id="navigation">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a class="active" href="join.html">Join</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-title">
+      <p class="eyebrow">Membership Application</p>
+      <h1>Join Our Chamber</h1>
+      <p>Complete the form below to become part of our business community.</p>
+    </div>
+
+    <div class="join-layout">
+      <form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>Applicant Information</legend>
+
+          <label for="first">
+            First Name *
+            <input
+              type="text"
+              id="first"
+              name="first"
+              autocomplete="given-name"
+              title="Enter your first name"
+              required>
+          </label>
+
+          <label for="last">
+            Last Name *
+            <input
+              type="text"
+              id="last"
+              name="last"
+              autocomplete="family-name"
+              title="Enter your last name"
+              required>
+          </label>
+
+          <label for="organization-title">
+            Organizational Title
+            <input
+              type="text"
+              id="organization-title"
+              name="organization-title"
+              autocomplete="organization-title"
+              pattern="[A-Za-zÀ-ÖØ-öø-ÿ\-\s]{7,}"
+              title="Use at least seven letters, spaces, or hyphens">
+          </label>
+
+          <label for="email">
+            Email Address *
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              placeholder="name@example.com"
+              title="Enter a valid email address"
+              required>
+          </label>
+
+          <label for="phone">
+            Mobile Phone *
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              autocomplete="tel"
+              title="Enter your mobile phone number"
+              required>
+          </label>
+
+          <label for="organization">
+            Business or Organization Name *
+            <input
+              type="text"
+              id="organization"
+              name="organization"
+              autocomplete="organization"
+              title="Enter your business or organization name"
+              required>
+          </label>
+
+          <label for="membership">
+            Membership Level *
+            <select id="membership" name="membership" required>
+              <option value="" disabled selected>Select a membership</option>
+              <option value="np">NP Membership</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
+            </select>
+          </label>
+
+          <label for="description">
+            Business or Organization Description
+            <textarea
+              id="description"
+              name="description"
+              rows="5"
+              title="Describe your organization"></textarea>
+          </label>
+
+          <input type="hidden" id="timestamp" name="timestamp">
+
+          <button class="submit-button" type="submit">
+            Submit Membership Application
+          </button>
+        </fieldset>
+      </form>
+
+      <section class="membership-section">
+        <h2>Membership Levels</h2>
+
+        <div class="membership-cards">
+          <article class="membership-card np-card">
+            <h3>NP Membership</h3>
+            <p>For nonprofit organizations. No membership fee.</p>
+            <button type="button" data-dialog="np-dialog">
+              View Benefits
+            </button>
+          </article>
+
+          <article class="membership-card bronze-card">
+            <h3>Bronze Membership</h3>
+            <p>Essential services for small businesses.</p>
+            <button type="button" data-dialog="bronze-dialog">
+              View Benefits
+            </button>
+          </article>
+
+          <article class="membership-card silver-card">
+            <h3>Silver Membership</h3>
+            <p>Additional promotion and training opportunities.</p>
+            <button type="button" data-dialog="silver-dialog">
+              View Benefits
+            </button>
+          </article>
+
+          <article class="membership-card gold-card">
+            <h3>Gold Membership</h3>
+            <p>Premium visibility and leadership benefits.</p>
+            <button type="button" data-dialog="gold-dialog">
+              View Benefits
+            </button>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <dialog id="np-dialog">
+    <div class="dialog-content">
+      <h2>NP Membership Benefits</h2>
+      <ul>
+        <li>Business directory listing</li>
+        <li>Access to networking events</li>
+        <li>Nonprofit training opportunities</li>
+        <li>No annual membership fee</li>
+      </ul>
+      <button class="close-button" type="button">Close</button>
+    </div>
+  </dialog>
+
+  <dialog id="bronze-dialog">
+    <div class="dialog-content">
+      <h2>Bronze Membership Benefits</h2>
+      <ul>
+        <li>Business directory listing</li>
+        <li>Access to networking events</li>
+        <li>Discounted event admission</li>
+        <li>One social media promotion each year</li>
+      </ul>
+      <button class="close-button" type="button">Close</button>
+    </div>
+  </dialog>
+
+  <dialog id="silver-dialog">
+    <div class="dialog-content">
+      <h2>Silver Membership Benefits</h2>
+      <ul>
+        <li>All Bronze Membership benefits</li>
+        <li>Professional training sessions</li>
+        <li>Quarterly social media promotions</li>
+        <li>Discounts on event sponsorships</li>
+      </ul>
+      <button class="close-button" type="button">Close</button>
+    </div>
+  </dialog>
+
+  <dialog id="gold-dialog">
+    <div class="dialog-content">
+      <h2>Gold Membership Benefits</h2>
+      <ul>
+        <li>All Silver Membership benefits</li>
+        <li>Homepage spotlight placement</li>
+        <li>Priority sponsorship opportunities</li>
+        <li>Leadership breakfast invitations</li>
+      </ul>
+      <button class="close-button" type="button">Close</button>
+    </div>
+  </dialog>
+
+  <footer>
+    <div>
+      <strong>Andean Valley Chamber of Commerce</strong>
+      <p>Av. Comunidad 231, Lima, Peru</p>
+      <p>info@andeanvalley.org</p>
+    </div>
+
+    <div>
+      <p>© <span id="current-year"></span> Andean Valley Chamber</p>
+      <p>Last Modified: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+</body>
+</html>
