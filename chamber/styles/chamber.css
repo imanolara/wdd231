@@ -6,7 +6,7 @@
     --white: #ffffff;
     --background: #f4f7f9;
     --text: #243b53;
-    --gray: #52667a;
+    --gray: #334e68;
     --border: #d7e0e7;
     --shadow: 0 10px 25px rgb(16 42 67 / 12%);
   }
@@ -80,12 +80,13 @@
   #menu-button {
     width: 45px;
     height: 45px;
-    color: var(--white);
-    background: transparent;
-    border: 1px solid #ffffff80;
+    color: var(--navy);
+    background: var(--gold);
+    border: 1px solid var(--gold);
     border-radius: 5px;
     cursor: pointer;
     font-size: 1.5rem;
+    font-weight: bold;
   }
   
   #menu-button::before {
@@ -442,3 +443,10 @@
       animation: none;
     }
   }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--gray);
+    opacity: 1;
+  }
+
