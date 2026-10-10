@@ -449,3 +449,167 @@
     opacity: 1;
   }
 
+  /* DISCOVER PAGE */
+
+  .visit-message {
+    margin: 0 0 28px;
+    padding: 14px 18px;
+    color: var(--navy);
+    background: #fff4d6;
+    border-left: 5px solid var(--gold);
+    border-radius: 6px;
+    font-weight: bold;
+  }
+
+  .places-grid {
+    display: grid;
+    grid-template-areas:
+      "card1"
+      "card2"
+      "card3"
+      "card4"
+      "card5"
+      "card6"
+      "card7"
+      "card8";
+    gap: 22px;
+  }
+
+  .place-1 { grid-area: card1; }
+  .place-2 { grid-area: card2; }
+  .place-3 { grid-area: card3; }
+  .place-4 { grid-area: card4; }
+  .place-5 { grid-area: card5; }
+  .place-6 { grid-area: card6; }
+  .place-7 { grid-area: card7; }
+  .place-8 { grid-area: card8; }
+
+  .place-card {
+    display: grid;
+    grid-template-areas:
+      "title"
+      "photo"
+      "location"
+      "description"
+      "action";
+    padding: 18px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    gap: 12px;
+    overflow: hidden;
+  }
+
+  .place-card h2 {
+    grid-area: title;
+    margin: 0;
+    font-size: 1.45rem;
+  }
+
+  .place-card figure {
+    grid-area: photo;
+    margin: 0;
+    overflow: hidden;
+    border-radius: 7px;
+  }
+
+  .place-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
+  .place-card address {
+    grid-area: location;
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .place-card p {
+    grid-area: description;
+    margin: 0;
+    color: var(--gray);
+  }
+
+  .place-card button {
+    grid-area: action;
+    justify-self: start;
+    padding: 10px 16px;
+    color: var(--white);
+    background: var(--dark-blue);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  /* Medium screens: photo and text occupy named areas side by side. */
+  @media screen and (min-width: 641px) and (max-width: 1024px) {
+    .places-grid {
+      grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+    }
+
+    .place-card {
+      grid-template-columns: minmax(240px, 300px) 1fr;
+      grid-template-areas:
+        "photo title"
+        "photo location"
+        "photo description"
+        "photo action";
+      align-items: start;
+    }
+  }
+
+  /* Large screens: two-card rows with a different internal area map. */
+  @media screen and (min-width: 1025px) {
+    .places-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-areas:
+        "card1 card2"
+        "card3 card4"
+        "card5 card6"
+        "card7 card8";
+    }
+
+    .place-card {
+      grid-template-columns: minmax(190px, 44%) 1fr;
+      grid-template-areas:
+        "title title"
+        "photo location"
+        "photo description"
+        "action action";
+    }
+  }
+
+  /* Image effects are intentionally excluded from mobile screens. */
+  @media screen and (min-width: 641px) and (hover: hover) {
+    .place-card {
+      transition: box-shadow 0.25s ease, transform 0.25s ease;
+    }
+
+    .place-card img {
+      transition: filter 0.25s ease, transform 0.25s ease;
+    }
+
+    .place-card:hover {
+      box-shadow: 0 16px 34px rgb(16 42 67 / 22%);
+      transform: translateY(-4px);
+    }
+
+    .place-card:hover img {
+      filter: saturate(1.15);
+      transform: scale(1.04);
+    }
+  }
