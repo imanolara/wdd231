@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 460" role="img" aria-labelledby="title desc">
+  <title id="title">Focused study desk</title>
+  <desc id="desc">A notebook, timer, pencil, and plant arranged on a rounded blue desk.</desc>
+  <path fill="#9fd7de" stroke="#142221" stroke-width="4" d="M90 29C178-3 391 8 521 52c67 22 100 99 80 181-27 108-116 191-259 209-130 16-252-18-300-110C-15 222 8 59 90 29Z"/>
+  <path fill="#142221" d="M76 315h474v29H76z"/>
+  <path fill="#f5f1e8" stroke="#142221" stroke-width="4" d="M161 161h266v164H161z"/>
+  <path fill="#fffdf8" stroke="#142221" stroke-width="4" d="M294 161h133v164H294z"/>
+  <path stroke="#cbc5b8" stroke-width="3" d="M182 193h85M182 218h85M182 243h71M317 193h84M317 218h84M317 243h62"/>
+  <path fill="#ee755b" stroke="#142221" stroke-width="4" d="m221 280 46-19 9 22-46 19z"/>
+  <circle cx="490" cy="201" r="62" fill="#fffdf8" stroke="#142221" stroke-width="4"/>
+  <path stroke="#142221" stroke-linecap="round" stroke-width="6" d="M490 201v-34M490 201l27 19"/>
+  <path fill="#d7ed78" stroke="#142221" stroke-width="4" d="M87 269h60v56H87z"/>
+  <path fill="none" stroke="#142221" stroke-linecap="round" stroke-width="8" d="M117 269c-1-35-8-64-29-89m29 89c-1-42 14-70 41-91m-41 54c25-28 54-38 81-37m-82 38c-19-27-42-38-67-38"/>
+  <path fill="#d7ed78" stroke="#142221" stroke-width="4" d="M83 176c25-5 39 3 44 27-24 3-38-6-44-27Zm81-20c-26 2-39 13-38 37 24-3 36-15 38-37Zm40 27c-28-4-45 4-53 25 26 6 43-2 53-25Z"/>
+  <path fill="#ee755b" stroke="#142221" stroke-width="4" d="m476 309 21-15 81 113-21 15z"/>
+  <path fill="#f5f1e8" stroke="#142221" stroke-width="4" d="m578 407 13 31-34-16z"/>
+  <circle cx="93" cy="92" r="13" fill="#d7ed78" stroke="#142221" stroke-width="4"/>
+  <path stroke="#142221" stroke-linecap="round" stroke-width="4" d="M64 92H49m88 0h-15M93 63V48m0 88v-15"/>
+</svg>

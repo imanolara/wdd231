@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Focus cycle</title>
+  <desc id="desc">A circular four-step process: choose, focus, check, and adjust.</desc>
+  <circle cx="320" cy="210" r="142" fill="#fffdf8" stroke="#142221" stroke-width="4"/>
+  <circle cx="320" cy="210" r="64" fill="#d7ed78" stroke="#142221" stroke-width="4"/>
+  <text x="320" y="204" fill="#142221" font-family="system-ui,sans-serif" font-size="20" font-weight="800" text-anchor="middle">ONE USEFUL</text>
+  <text x="320" y="230" fill="#142221" font-family="system-ui,sans-serif" font-size="20" font-weight="800" text-anchor="middle">SESSION</text>
+  <g font-family="system-ui,sans-serif" font-size="15" font-weight="800" text-anchor="middle">
+    <rect x="255" y="18" width="130" height="57" rx="14" fill="#ee755b" stroke="#142221" stroke-width="3"/>
+    <text x="320" y="52" fill="#142221">1 · CHOOSE</text>
+    <rect x="472" y="181" width="130" height="57" rx="14" fill="#f5f1e8" stroke="#142221" stroke-width="3"/>
+    <text x="537" y="215" fill="#142221">2 · FOCUS</text>
+    <rect x="255" y="345" width="130" height="57" rx="14" fill="#f5f1e8" stroke="#142221" stroke-width="3"/>
+    <text x="320" y="379" fill="#142221">3 · CHECK</text>
+    <rect x="38" y="181" width="130" height="57" rx="14" fill="#d7ed78" stroke="#142221" stroke-width="3"/>
+    <text x="103" y="215" fill="#142221">4 · ADJUST</text>
+  </g>
+  <path fill="none" stroke="#142221" stroke-linecap="round" stroke-width="5" d="M400 92c44 24 74 61 86 103m-19-13 20 16 10-23M403 326c43-25 72-62 83-105m-20 14 21-16 9 23M238 326c-44-24-74-61-86-103m19 13-20-16-10 23M237 93c-43 24-72 61-84 103m21-13-22 15-8-23"/>
+</svg>

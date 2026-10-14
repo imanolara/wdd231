@@ -1,0 +1,200 @@
+[
+  {
+    "id": "pomodoro",
+    "name": "Pomodoro Sprint",
+    "category": "Focus",
+    "duration": "25–30 min",
+    "energy": "Medium",
+    "bestFor": "Starting a task",
+    "description": "Work in a protected 25-minute block, then take a brief intentional break.",
+    "icon": "◴",
+    "steps": ["Choose one small outcome.", "Set a timer for 25 minutes and work on only that outcome.", "Stop when the timer rings, mark progress, and take a five-minute break."]
+  },
+  {
+    "id": "active-recall",
+    "name": "Active Recall",
+    "category": "Recall",
+    "duration": "15–30 min",
+    "energy": "High",
+    "bestFor": "Exam preparation",
+    "description": "Close the source and pull information from memory before checking what you missed.",
+    "icon": "?",
+    "steps": ["Choose a small topic and hide your notes.", "Write or say everything you can remember.", "Check the source, correct gaps, and test yourself again later."]
+  },
+  {
+    "id": "feynman",
+    "name": "Feynman Explanation",
+    "category": "Understand",
+    "duration": "20–40 min",
+    "energy": "High",
+    "bestFor": "Difficult concepts",
+    "description": "Explain an idea in plain language to reveal where your understanding is incomplete.",
+    "icon": "✦",
+    "steps": ["Write the concept as a heading.", "Explain it as if teaching a beginner.", "Find vague areas, review them, and simplify the explanation."]
+  },
+  {
+    "id": "blurting",
+    "name": "Blurting",
+    "category": "Recall",
+    "duration": "10–20 min",
+    "energy": "Medium",
+    "bestFor": "Fast review",
+    "description": "Quickly write everything you remember about a topic, then fill the gaps in another color.",
+    "icon": "✎",
+    "steps": ["Read the topic title and put materials away.", "Write every relevant fact you remember.", "Compare with your notes and add missing details in another color."]
+  },
+  {
+    "id": "cornell-notes",
+    "name": "Cornell Notes",
+    "category": "Organize",
+    "duration": "30–60 min",
+    "energy": "Medium",
+    "bestFor": "Lectures and readings",
+    "description": "Divide a page into notes, cues, and summary areas so review is built into note-taking.",
+    "icon": "▤",
+    "steps": ["Divide the page into a wide notes column, a narrow cues column, and a bottom summary.", "Capture main ideas in the notes column.", "Add questions or keywords in the cues column and summarize after class."]
+  },
+  {
+    "id": "two-minute-start",
+    "name": "Two-Minute Start",
+    "category": "Focus",
+    "duration": "2–10 min",
+    "energy": "Low",
+    "bestFor": "Overcoming resistance",
+    "description": "Shrink the first action until it feels almost too easy, then let momentum decide what comes next.",
+    "icon": "→",
+    "steps": ["Name the smallest visible action.", "Promise to do only two minutes.", "At two minutes, choose freely whether to stop or continue."]
+  },
+  {
+    "id": "spaced-review",
+    "name": "Spaced Review",
+    "category": "Recall",
+    "duration": "10–20 min",
+    "energy": "Medium",
+    "bestFor": "Long-term memory",
+    "description": "Revisit material across increasing intervals instead of repeating it all in one sitting.",
+    "icon": "⌁",
+    "steps": ["Create a short set of questions or cards.", "Review them today, then after one, three, and seven days.", "Shorten the interval for missed items and lengthen it for correct ones."]
+  },
+  {
+    "id": "interleaving",
+    "name": "Interleaving",
+    "category": "Understand",
+    "duration": "30–60 min",
+    "energy": "High",
+    "bestFor": "Problem solving",
+    "description": "Mix related problem types so you practice choosing a method, not only repeating it.",
+    "icon": "⇄",
+    "steps": ["Select two or three related problem types.", "Alternate between them rather than completing one full set.", "After each problem, name why that method fits."]
+  },
+  {
+    "id": "mind-map",
+    "name": "Mind Map",
+    "category": "Organize",
+    "duration": "20–40 min",
+    "energy": "Medium",
+    "bestFor": "Connecting ideas",
+    "description": "Arrange a topic visually around branches to make relationships and missing links easier to see.",
+    "icon": "⌘",
+    "steps": ["Place the main topic in the center.", "Add branches for major ideas and smaller branches for evidence or examples.", "Draw cross-links where two branches influence each other."]
+  },
+  {
+    "id": "sq3r",
+    "name": "SQ3R Reading",
+    "category": "Understand",
+    "duration": "30–60 min",
+    "energy": "High",
+    "bestFor": "Textbook chapters",
+    "description": "Survey, question, read, recite, and review to turn a passive chapter into an active task.",
+    "icon": "S3",
+    "steps": ["Survey headings, images, and summaries, then form questions.", "Read to answer each question and recite the answer without looking.", "Review the questions and main ideas at the end."]
+  },
+  {
+    "id": "body-double",
+    "name": "Body Doubling",
+    "category": "Collaborate",
+    "duration": "25–60 min",
+    "energy": "Low",
+    "bestFor": "Staying accountable",
+    "description": "Work quietly beside another person and use their presence as a gentle focus cue.",
+    "icon": "••",
+    "steps": ["Choose a partner and agree on a work block.", "Each person states one outcome before starting.", "Work quietly, then share what moved forward at the end."]
+  },
+  {
+    "id": "question-storm",
+    "name": "Question Storm",
+    "category": "Understand",
+    "duration": "10–20 min",
+    "energy": "Medium",
+    "bestFor": "Beginning a topic",
+    "description": "Generate questions before searching for answers so curiosity gives the session direction.",
+    "icon": "¿",
+    "steps": ["Set a timer and write only questions about the topic.", "Do not answer or judge them while the timer runs.", "Group the questions and choose the most useful one to investigate first."]
+  },
+  {
+    "id": "retrieval-grid",
+    "name": "Retrieval Grid",
+    "category": "Recall",
+    "duration": "15–25 min",
+    "energy": "High",
+    "bestFor": "Comparing topics",
+    "description": "Fill a blank grid from memory to compare features, steps, examples, or definitions.",
+    "icon": "▦",
+    "steps": ["Create row labels for topics and column labels for features.", "Hide your notes and fill every cell you can.", "Check the grid, correct errors, and retry empty cells."]
+  },
+  {
+    "id": "progressive-summary",
+    "name": "Progressive Summary",
+    "category": "Organize",
+    "duration": "20–35 min",
+    "energy": "Low",
+    "bestFor": "Dense notes",
+    "description": "Compress a page into a paragraph, then a sentence, then a short phrase to find its core idea.",
+    "icon": "≡",
+    "steps": ["Write a short paragraph that captures the page.", "Compress the paragraph into one sentence.", "Reduce the sentence to a phrase you can use as a recall cue."]
+  },
+  {
+    "id": "exam-wrapper",
+    "name": "Exam Wrapper",
+    "category": "Organize",
+    "duration": "15–25 min",
+    "energy": "Low",
+    "bestFor": "Learning from feedback",
+    "description": "Review an assessment to separate knowledge gaps, strategy mistakes, and avoidable errors.",
+    "icon": "✓",
+    "steps": ["Sort missed points by cause: knowledge, method, time, or attention.", "Find the pattern that cost the most points.", "Write one specific change for the next preparation session."]
+  },
+  {
+    "id": "teach-back",
+    "name": "Peer Teach-Back",
+    "category": "Collaborate",
+    "duration": "20–40 min",
+    "energy": "High",
+    "bestFor": "Checking understanding",
+    "description": "Take turns teaching a small idea while the listener asks for examples and clarification.",
+    "icon": "↔",
+    "steps": ["Divide the material into small concepts.", "Teach one concept without reading from notes.", "Let your partner ask questions, then switch roles."]
+  },
+  {
+    "id": "environment-reset",
+    "name": "Environment Reset",
+    "category": "Focus",
+    "duration": "5–10 min",
+    "energy": "Low",
+    "bestFor": "Distracted moments",
+    "description": "Prepare the space, tools, and screen before a work block so fewer choices interrupt you.",
+    "icon": "◇",
+    "steps": ["Clear the desk except for what this task needs.", "Silence notifications and close unrelated tabs.", "Place water nearby, open the first resource, and start the timer."]
+  },
+  {
+    "id": "error-log",
+    "name": "Error Log",
+    "category": "Organize",
+    "duration": "15–30 min",
+    "energy": "Medium",
+    "bestFor": "Practice problems",
+    "description": "Track mistakes by type and correction so recurring weak points become visible and actionable.",
+    "icon": "△",
+    "steps": ["Record the problem, your error, and the correct approach.", "Tag the cause, such as concept, setup, calculation, or attention.", "Review repeated tags and retry one example from each group."]
+  }
+]

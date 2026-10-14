@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan a Study Session | FocusLab</title>
+  <meta name="description" content="Create a clear, realistic study session plan with a goal, technique, duration, and first step.">
+  <meta name="author" content="Imanol Aranda">
+  <meta property="og:title" content="Plan a Study Session | FocusLab">
+  <meta property="og:description" content="Turn a study intention into a simple plan you can start.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/social-card.svg">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="planner">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="FocusLab home"><span class="brand-mark" aria-hidden="true">FL</span><span>FocusLab</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="techniques.html">Techniques</a>
+        <a href="planner.html" aria-current="page">Plan a session</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-intro shell">
+      <p class="eyebrow">Session planner</p>
+      <h1>Give your next hour <em>a clear job.</em></h1>
+      <p>Build a lightweight plan. Required fields are marked with an asterisk.</p>
+    </section>
+
+    <section class="planner-layout shell">
+      <form class="session-form" id="session-form" action="review.html" method="get">
+        <fieldset>
+          <legend>1. Define the session</legend>
+          <label for="name">Your name <span aria-hidden="true">*</span></label>
+          <input id="name" name="name" type="text" autocomplete="name" minlength="2" required>
+
+          <label for="subject">Subject or course <span aria-hidden="true">*</span></label>
+          <input id="subject" name="subject" type="text" placeholder="e.g. Biology 201" required>
+
+          <label for="goal">One clear outcome <span aria-hidden="true">*</span></label>
+          <textarea id="goal" name="goal" rows="3" minlength="10" maxlength="180" placeholder="e.g. Explain cellular respiration without looking at my notes" required></textarea>
+          <small>Write something you can check at the end.</small>
+        </fieldset>
+
+        <fieldset>
+          <legend>2. Shape the time</legend>
+          <div class="form-row">
+            <div>
+              <label for="date">Study date <span aria-hidden="true">*</span></label>
+              <input id="date" name="date" type="date" required>
+            </div>
+            <div>
+              <label for="duration">Duration <span aria-hidden="true">*</span></label>
+              <select id="duration" name="duration" required>
+                <option value="">Choose time</option>
+                <option value="15 minutes">15 minutes</option>
+                <option value="25 minutes">25 minutes</option>
+                <option value="45 minutes">45 minutes</option>
+                <option value="60 minutes">60 minutes</option>
+                <option value="90 minutes">90 minutes</option>
+              </select>
+            </div>
+          </div>
+
+          <label for="technique">Technique <span aria-hidden="true">*</span></label>
+          <select id="technique" name="technique" required>
+            <option value="">Loading techniques…</option>
+          </select>
+
+          <label for="first-step">First physical action <span aria-hidden="true">*</span></label>
+          <input id="first-step" name="firstStep" type="text" minlength="5" placeholder="e.g. Open chapter 4 and write three questions" required>
+        </fieldset>
+
+        <fieldset>
+          <legend>3. Protect your focus</legend>
+          <p class="field-label">Main distraction to remove <span aria-hidden="true">*</span></p>
+          <div class="choice-grid">
+            <label><input type="radio" name="distraction" value="Phone out of reach" required><span>Phone out of reach</span></label>
+            <label><input type="radio" name="distraction" value="Notifications off"><span>Notifications off</span></label>
+            <label><input type="radio" name="distraction" value="Quiet location"><span>Quiet location</span></label>
+            <label><input type="radio" name="distraction" value="Extra tabs closed"><span>Extra tabs closed</span></label>
+          </div>
+
+          <label for="notes">Optional note</label>
+          <textarea id="notes" name="notes" rows="3" maxlength="240" placeholder="Anything your future self should remember?"></textarea>
+        </fieldset>
+
+        <input type="hidden" id="created-at" name="createdAt">
+        <div class="form-actions">
+          <button class="button button-primary" type="submit">Review my plan</button>
+          <button class="text-button" id="clear-plan" type="button">Clear form</button>
+          <span id="draft-status" role="status"></span>
+        </div>
+      </form>
+
+      <aside class="planner-aside">
+        <p class="eyebrow">A useful goal is</p>
+        <ul>
+          <li><strong>Specific</strong><span>“Review notes” is vague. “List five causes” is clear.</span></li>
+          <li><strong>Visible</strong><span>You can point to an answer, page, diagram, or solved problem.</span></li>
+          <li><strong>Realistic</strong><span>It fits the time and energy you actually have today.</span></li>
+        </ul>
+        <p class="aside-note">Your draft is saved in this browser as you type.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">FL</span><span>FocusLab</span></a><p>Practical structure for focused study.</p></div>
+      <nav aria-label="Footer navigation"><a href="attributions.html">Attributions</a><a class="video-link" data-video-link href="https://youtu.be/REPLACE_WITH_YOUR_VIDEO_ID">Video demonstration</a></nav>
+      <p class="footer-meta">© <span data-current-year></span> Imanol Aranda<br>Last updated: <span data-last-modified></span></p>
+    </div>
+  </footer>
+  <script type="module" src="js/planner.js"></script>
+</body>
+</html>
