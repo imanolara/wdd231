@@ -41,5 +41,5 @@
 
 - Keep the final recording between 3 and 5 minutes.
 - Make the video public or unlisted so the grader can open it.
-- Paste its URL into `js/config.js` in place of `https://youtu.be/REPLACE_WITH_YOUR_VIDEO_ID`.
+- The published video URL is `https://youtu.be/B0GfpkeD8kY` and is configured in `js/config.js`.
 - Click **Video demonstration** in the footer of the deployed site and confirm it opens the correct video.
