@@ -1,0 +1,60 @@
+@media screen and (min-width: 48rem) {
+  header {
+    grid-template-columns: 64px minmax(0, 1fr);
+    min-height: 88px;
+    padding-inline: max(1rem, calc((100% - 1100px) / 2));
+  }
+
+  header img {
+    width: 64px;
+    height: 64px;
+  }
+
+  header span {
+    font-size: 1.55rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation,
+  .navigation.show {
+    display: block;
+  }
+
+  .navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    width: min(100%, 1100px);
+    margin: 0 auto;
+  }
+
+  .navigation li {
+    flex: 0 1 12rem;
+  }
+
+  .home-grid {
+    grid-template-columns: minmax(0, 2fr) minmax(16rem, 1fr);
+    align-items: stretch;
+  }
+
+  .course-work,
+  .location {
+    min-height: 24rem;
+  }
+
+  .course-filters {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #course-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 68rem) {
+  #course-list {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
