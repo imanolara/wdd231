@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#33265c"/>
+  <path d="m150 225 105-135 68 85 50-61 117 111Z" fill="#e9b949"/>
+  <path d="m255 90 68 85 20-25 30 38 28-34 89 71H150Z" fill="#fff" opacity=".92"/>
+  <text x="320" y="292" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="36" font-weight="700">SUMMIT DESIGN</text>
+</svg>

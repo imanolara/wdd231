@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#123f62"/>
+  <rect x="245" y="70" width="150" height="150" rx="28" fill="#55c3d9"/>
+  <circle cx="320" cy="145" r="42" fill="#123f62"/>
+  <g stroke="#55c3d9" stroke-width="14" stroke-linecap="round">
+    <path d="M205 105h40M205 145h40M205 185h40M395 105h40M395 145h40M395 185h40M280 40v30M320 40v30M360 40v30M280 220v30M320 220v30M360 220v30"/>
+  </g>
+  <text x="320" y="304" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="36" font-weight="700">QHAPAQ TECH</text>
+</svg>

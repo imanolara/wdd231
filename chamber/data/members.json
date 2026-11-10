@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Andean Coffee Company",
+    "address": "Av. Los Andes 145, Lima, Peru",
+    "phone": "+51 1 555 0101",
+    "website": "https://example.com/andean-coffee",
+    "image": "andean-coffee.svg",
+    "membership": 3,
+    "category": "Food and Beverage",
+    "description": "Locally roasted Peruvian coffee supplied to homes, restaurants, offices, and cafés."
+  },
+  {
+    "name": "Summit Design Studio",
+    "address": "Calle Creativa 220, Lima, Peru",
+    "phone": "+51 1 555 0102",
+    "website": "https://example.com/summit-design",
+    "image": "summit-design.svg",
+    "membership": 2,
+    "category": "Creative Services",
+    "description": "Brand strategy, graphic design, and digital experiences for growing local organizations."
+  },
+  {
+    "name": "Valle Verde Market",
+    "address": "Jr. Comunidad 315, Lima, Peru",
+    "phone": "+51 1 555 0103",
+    "website": "https://example.com/valle-verde",
+    "image": "valle-verde.svg",
+    "membership": 1,
+    "category": "Retail",
+    "description": "Fresh produce, household essentials, and specialty goods from regional farmers."
+  },
+  {
+    "name": "Qhapaq Technology",
+    "address": "Av. Innovación 428, Lima, Peru",
+    "phone": "+51 1 555 0104",
+    "website": "https://example.com/qhapaq-tech",
+    "image": "qhapaq-tech.svg",
+    "membership": 3,
+    "category": "Technology",
+    "description": "Reliable IT support, web development, and cloud services for small businesses."
+  },
+  {
+    "name": "Mirador Business Hotel",
+    "address": "Camino del Valle 580, Lima, Peru",
+    "phone": "+51 1 555 0105",
+    "website": "https://example.com/mirador-hotel",
+    "image": "mirador-hotel.svg",
+    "membership": 2,
+    "category": "Hospitality",
+    "description": "Comfortable lodging, meeting rooms, and hospitality for visitors and business travelers."
+  },
+  {
+    "name": "Lima Growth Financial",
+    "address": "Plaza Empresarial 620, Lima, Peru",
+    "phone": "+51 1 555 0106",
+    "website": "https://example.com/lima-growth",
+    "image": "lima-growth.svg",
+    "membership": 3,
+    "category": "Financial Services",
+    "description": "Business planning, accounting support, and financial education for entrepreneurs."
+  },
+  {
+    "name": "Inti Solar Solutions",
+    "address": "Av. El Sol 742, Lima, Peru",
+    "phone": "+51 1 555 0107",
+    "website": "https://example.com/inti-solar",
+    "image": "inti-solar.svg",
+    "membership": 2,
+    "category": "Energy",
+    "description": "Solar design and installation services that help local companies reduce energy costs."
+  },
+  {
+    "name": "Cordillera Logistics",
+    "address": "Jr. Comercio 890, Lima, Peru",
+    "phone": "+51 1 555 0108",
+    "website": "https://example.com/cordillera-logistics",
+    "image": "cordillera-logistics.svg",
+    "membership": 1,
+    "category": "Transportation",
+    "description": "Regional delivery, warehousing, and logistics coordination for businesses of every size."
+  }
+]

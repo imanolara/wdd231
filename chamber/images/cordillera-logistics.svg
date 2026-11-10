@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#713b31"/>
+  <path d="M120 195h246V90H120Zm246-65h82l72 65H366Z" fill="#f4d9a6"/>
+  <path d="M402 146h42l34 31h-76Z" fill="#7eb7c4"/>
+  <circle cx="213" cy="218" r="34" fill="#e9b949" stroke="#fff" stroke-width="12"/>
+  <circle cx="440" cy="218" r="34" fill="#e9b949" stroke="#fff" stroke-width="12"/>
+  <path d="M96 116H56M96 151H38M96 186H66" stroke="#f4d9a6" stroke-width="14" stroke-linecap="round"/>
+  <text x="320" y="304" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-weight="700">CORDILLERA LOGISTICS</text>
+</svg>

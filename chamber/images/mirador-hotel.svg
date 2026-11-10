@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#18576b"/>
+  <circle cx="458" cy="85" r="38" fill="#f6cc64"/>
+  <path d="M80 225 215 82l76 81 50-49 124 111Z" fill="#8ec6c5"/>
+  <path d="m215 82 76 81 17-17 33 35 35-31 89 75H80Z" fill="#f4f7f9"/>
+  <rect x="241" y="178" width="158" height="69" rx="5" fill="#e9b949"/>
+  <text x="320" y="222" text-anchor="middle" fill="#102a43" font-family="Arial,sans-serif" font-size="28" font-weight="700">MIRADOR</text>
+  <text x="320" y="305" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="32" font-weight="700">BUSINESS HOTEL</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#6b3f2a"/>
+  <circle cx="320" cy="145" r="78" fill="#f6d8a8"/>
+  <path d="M295 88c-55 35-48 112 8 125 58 13 99-55 65-101-19 37-43 62-73 76 20-29 25-63 0-100Z" fill="#6b3f2a"/>
+  <text x="320" y="285" text-anchor="middle" fill="#fff8eb" font-family="Arial,sans-serif" font-size="34" font-weight="700">ANDEAN COFFEE</text>
+</svg>

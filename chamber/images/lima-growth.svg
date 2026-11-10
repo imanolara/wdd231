@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#173f50"/>
+  <path d="M165 210h310M200 210v-84M270 210V91M340 210v-53M410 210V61" fill="none" stroke="#f4d06f" stroke-width="30"/>
+  <path d="m185 95 88-45 68 49 104-64" fill="none" stroke="#8fd3c7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m415 29 34 3-10 33" fill="none" stroke="#8fd3c7" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="292" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="36" font-weight="700">LIMA GROWTH</text>
+</svg>
